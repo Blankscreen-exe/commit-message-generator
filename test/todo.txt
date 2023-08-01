@@ -1,0 +1,22 @@
+
+input fields:
+
+🟢- drop down. type of commit. [feat, chore, fix, build, ci, docs, style, refactor, perf, test]
+addition: dynamic tooltip with description or slider
+
+- text. scope. goes inside brackets
+validation: less than 15 chars
+
+- check. breaking change?. if yes add a "!"
+
+🟢- text. subject. 
+validation: less than 50 chars
+
+- text area. body
+
+- text area. footer. only available if "breaking change == true"
+addition: add footer button
+
+- text. reviewed by
+
+- text. reference
